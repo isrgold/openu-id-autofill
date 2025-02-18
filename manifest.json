@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "openu ID input",
+  "version": "1.0",
+  "description": "Automatically input id number in the open university website.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://sso.apps.openu.ac.il/login*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "96": "icon.png"
+  }
+}
