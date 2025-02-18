@@ -1,15 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "openu ID input",
+  "name": "openu ID auto input",
   "version": "1.0",
   "description": "Automatically input id number in the open university website.",
   "permissions": [
     "activeTab",
     "storage"
   ],
-  "action": {
-    "default_popup": "popup.html"
-  },
   "content_scripts": [
     {
       "matches": [

@@ -1,13 +1,17 @@
 function clickElement() {
-
   const element = document.getElementById("p_mis_student");
   if (element) {
     element.focus();
-    chrome.storage.local.get('data', function(result) {
+    chrome.storage.local.get('data', function (result) {
       if (result.data) {
         element.value = result.data;
         element.click();
       }
+    });
+    element.addEventListener('input', function () {
+      const userInput = element.value;
+      chrome.storage.local.set({ data: userInput }, function () {
+      });
     });
   }
   else {
