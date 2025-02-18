@@ -57,7 +57,7 @@
 2. **שכפל את הקוד**:
     - השתמש בפקודה `git clone` כדי לשכפל את הפרויקט למחשב שלך:
       ```bash
-      git clone https://github.com/isrgold/openu-auto-id-input.git
+      git clone https://github.com/isrgold/openu-id-autofil.git
       ```
 
 3. **ערוך את הקוד**:
