@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://sso.apps.openu.ac.il/login*"
+        "https://sso.apps.openu.ac.il/*"
       ],
       "js": [
         "content.js"
