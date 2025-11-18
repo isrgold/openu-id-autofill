@@ -19,7 +19,7 @@
 
 ## 📋 דרישות
 
-* דפדפן **Google Chrome** (גרסה עדכנית מומלצת)
+* דפדפן Chromium
 * גישה לדף ההתחברות של האוניברסיטה הפתוחה
 
 ---
@@ -33,7 +33,7 @@
 
 ### 2. הפעלת מצב מפתחים ב-Chrome
 
-* פתח את Chrome והיכנס לכתובת:
+* פתח את הדפדפן והיכנס לכתובת:
 
   ```
   chrome://extensions/
